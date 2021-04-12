@@ -1,0 +1,516 @@
+*{
+  padding: 0;
+  margin: 0;
+
+}
+body{
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+
+/* 1 ci section bashlayir */
+
+.section_top_header{
+  display: flex;
+  margin: 0 140px;
+  justify-content: space-between;
+}
+.section_top_header_body{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.tkta_logo a{
+  display: block;
+}
+.tkta_logo svg{
+  margin-top: 34px;
+  margin-bottom: 10px;
+}
+.top_header_logos_group{
+  display: flex;
+  margin-top: 25px;
+}
+.top_header_logo_eric_naric{
+  width: 157px;
+  height: 49px;
+  margin-right: 15px;
+}
+.top_header_logo_eqar{
+  width: 72px;
+  height: 35px;
+  margin-right: 15px;
+}
+.top_header_logo_enqa{
+  width: 71px;
+  height: 35px;
+}
+
+/* 1 ci section qurtarir */
+
+/* 2 ci section bashlayir */
+.section_main_header{
+  padding: 0 140px;
+  height: 40px;
+  position: sticky;
+  z-index: 999;
+  top: 0;
+  background-color:#EEEEEE ;
+  
+}
+.main_header_body{
+  display: flex;
+}
+.main_header_container--toggle-btn{
+  width: 40px;
+  height: 40px;
+}
+.fa-bars{
+  background-color: #213858;
+  color: #FFFFFF;
+  padding: 12px;
+}
+.main_header_container--search-btn{
+  width: 40px;
+  height: 40px;
+  margin-left: -2px;
+}
+.fa-search{
+  background-color: #7A6426;
+  color: #FFFFFF;
+  padding: 12px;
+}
+.main_header_container--lang {
+  display: flex;
+  align-items: center;
+}
+.flag{
+  padding: 12px;
+  color: #323232;
+}
+.flag:last-child{
+  padding-right: 0;
+  padding-left: 0;
+}
+.main_header_container_navbar{
+  display: flex;
+  align-items: center;
+  order: 3;
+  margin-left: auto;
+  text-transform: capitalize;
+}
+.main_header_container_navbar--item{
+  padding-right: 33px;
+  line-height: 16px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.main_header_container_navbar--item a{
+  font-size: 13px;
+  font-weight: bold;
+  color: #323232;
+  font-family: Segoe UI;
+}
+.content-icon {
+  width: 0;
+  margin-top: 5px;
+  margin-left: 8px;
+  height: 0;
+  border-top: 3px solid transparent;
+  border-left: 6px solid #555;
+  border-bottom: 3px solid transparent;
+}
+
+/* 2ci section qutarir */
+
+/* 3 cu section bashlayir */
+
+.line-height-div{
+  background-color: #082145;
+  height: 10px;
+  width: 100%;
+}
+.section_allNews{
+  padding: 0 140px;
+  background-color: #EEEEEE;
+}
+.section_allNews_content{
+  padding: 0px 193px;
+  padding-bottom: 220px;
+  background-color: #FFFFFF;
+}
+.section_allNews_navbar {
+  display: flex;
+  background-color: #F8F8F8;
+}
+.section_allNews_navbar--item {
+  padding: 12px 16px;
+  position: relative;
+}
+.section_allNews_navbar--item:first-child a{
+  color: #082145 ;
+}
+.section_allNews_navbar--item :last-child{
+  padding-left: 10px;
+}
+.section_allNews_navbar--item a{
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 16px;
+  color: #213858;
+}
+.navbar-icon {
+  width: 0;
+  position: absolute;
+  left: 75px;
+  top: 19px;
+  height: 0;
+  border-top: 3px solid transparent;
+  border-left: 7px solid #082145;
+  border-bottom: 3px solid transparent;
+}
+.section_allNews_header {
+  margin-top: 28px;
+}
+.section_allNews_header--head{
+  font-size: 30px;
+  line-height: 41px;
+  font-family: Segoe UI;
+  font-weight: bold;
+  padding-bottom: 20px;
+  color: #082145;
+}
+.section_allNews_header_btm-line {
+  background-color: #776431;
+  height: 4px;
+  width: 40px;
+}
+.section_allNews_social_media {
+  margin-top: 43px;
+}
+.section_allNews_social_media_menu {
+  display: flex;
+}
+.section_allNews_social_media_menu_icon {
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 12px;
+  background-color: #082145;
+  padding: 8px 12px;
+  color: #FFFFFF;
+}
+.section_news_container_group_parent{
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+}
+.section_news_container_group_parent--item{
+  background-color: #F8F8F8;
+  margin-top: 20px;
+  /* flex: 0 0 24%; */
+}
+/* .section_news_container_group_parent--item:last-child{
+  margin-right: 0px;
+} */
+.news_item--empty-div{
+  height: 10px;
+  background-color: #C0B790;
+}
+.date{
+  padding: 10px 0 20px 10px;
+
+}
+.date b{
+  font-size: 14px;
+  font-weight: bold;
+  color: #082145;
+}
+.text{
+  padding: 10px;
+  color: #323232;
+  line-height: 19px;
+  font-size: 14px;
+}
+.news_footer{
+  padding: 20px 30px;
+  line-height: 16px;
+  position: relative;
+  font-size: 12px;
+}
+.news_footer a{
+  color: #323232;
+}
+.footer-icon{
+  width: 7px;
+  height: 7px;
+  display: inline-block;
+  border-right: 1px solid #7A6426;
+  border-bottom: 1px solid #7A6426;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 23px;
+  left: 8px;
+}
+.section_news_container_group_footer--btn {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  position: relative;
+  border-bottom: 1px solid #BFB794;
+}
+.section_news_container_group_footer--btn button{
+  background-color: #082145;
+  line-height: 16px;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: Segoe UI;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  outline: none;
+  padding: 7px 54px 7px 16px;
+}
+.button-icon {
+  width: 7px;
+  height: 7px;
+  display: inline-block;
+  border-right: 2px solid #FFFFFF;
+  border-bottom: 2px solid #FFFFFF;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 40px;
+  left: 120px;
+}
+/* 3 cu section qurtarir */
+
+/* 8 cu section bashlayir */
+.section_research{
+  background-color: #F8F8F8;
+}
+.section_research_container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 140px;
+}
+.section_research_container_item{
+  flex: 0 0 247px;
+  background-color: #EEEEEE;
+  margin: 33px 0;
+  margin-right: 26px;
+}
+.section_research_container_item:last-child{
+  margin-right: 0;
+}
+.section_research_container_item--head {
+  color: #4B4545;
+  font-family: Segoe UI;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: bold;
+  padding-top: 11px;
+  padding-left: 14px;
+}
+.section_research_container_item--link {
+  padding-bottom: 8px;
+  padding-top: 4px;
+}
+.section_research_container_item--link a{
+  color: #8B7736;
+  font-size: 12px;
+  padding-top: 11px;
+  padding-left: 14px;
+  line-height: 16px;
+  padding-bottom: 8px;
+  font-family: Segoe UI;
+}
+/* 4 cu section qurtarir */
+
+/* 5 ci section BAshlayir */
+.section_info_banner {
+  background-color: #082145;
+  padding: 25px 140px;
+}
+.section_info_banner_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.section_info_banner_content_menu{
+  display: flex;
+}
+.section_info_banner_content--head {
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: bold;
+  font-family: Segoe UI;
+}
+.section_info_banner_content_menu--apply-btn {
+  background-color: #3B6A3D;
+  padding: 7px 52px;
+  font-family: Segoe UI;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 4px;
+  margin-right: 17px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.section_info_banner_content_menu--moreinfo-btn {
+  background-color: #213858;
+  padding: 7px 25px;
+  color: #FFFFFF;
+  line-height: 16px;
+  margin-right: 17px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-family: Segoe UI;
+}
+.section_info_banner_content_menu--quetion {
+  display: block;
+}
+.far.fa-question-circle {
+  color: white;
+  font-size: 27px;
+}
+
+/* 5 ci section qurtarir */
+
+/* 6 ci section(footer) bashlayir */
+
+.section_footer {
+  color: #FFFFFF;
+  background: #213858;
+  padding: 28px 0;
+}
+.section_footer_container{
+  margin: 0 140px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.section_footer_container_info_feedback{
+  position: relative;
+  padding-top: 29px;
+  padding-bottom: 11px;
+}
+input#footer_feedback {
+  background-color: #082145;
+  outline: none;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+  border-radius: 4px;
+  border: none;
+  padding: 5px 12px;
+}
+.section_footer_container_info_feedback button{
+  font-size: 13px;
+  position: absolute;
+  bottom: 16px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  line-height: 14px;
+  font-weight: bold;
+  left: 171px;
+  border-radius: 4px;
+  color: #FFFFFF;
+  padding: 3px 8px;
+  background-color: #3B6A3D;
+}
+#footer_feedback{
+  color: white;
+}
+
+.section_footer_container_info--contact {
+  font-family: Segoe UI;
+  font-size: 14px;
+  line-height: 19px;
+}
+.section_footer_container_info--contact-link {
+  color: #FFFFFF;
+  font-family: Segoe UI;
+  font-size: 14px;
+  line-height: 19px;
+  /* font-weight: revert; */
+}
+.section_footer_container_info--location {
+  width: 250px;
+  font-size: 14px;
+  padding-top: 27px;
+  line-height: 17px;
+  font-family: Segoe UI;
+}
+.section_footer_container_social_menu {
+  /* padding-top: 74px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 42px;
+}
+.flex{
+  flex: 0 0 225px;
+}
+.section_footer_container_social_menu--item{
+  position: relative;
+  padding-bottom: 11px;
+}
+.section_footer_container_social_menu--item a{
+  font-size: 12px;
+  line-height: 16px;
+  color: #F4F4F4;
+  font-family: Segoe UI;
+}
+.footer-item-icon{
+  width: 7px;
+  height: 7px;
+  display: inline-block;
+  border-right: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+  transform: rotate(-45deg);
+  position: absolute;
+  left: -20px;
+  top: 5px;
+}
+.section_footer_container_logo--link svg {
+  display: block;
+  background-color: white;
+  padding: 5px 8px;
+
+}
+.section_footer_container_end--sponsors {
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  display: flex;
+}
+.section_footer_container_end--sponsors a{
+  display: block;
+}
+
+img.section_footer_container_end--sponsors_eric_naric {
+  width: 109px;
+  padding: 0 28px 0 16px;
+}
+img.section_footer_container_end--sponsors_eqar {
+  width: 72px;
+  padding-right: 28px;
+}
+img.section_footer_container_end--sponsors_enqa {
+  width: 58px;
+  padding-right: 13px;
+}
+.section_footer_container_end--copyright {
+  padding-top: 23px;
+  font-size: 12px;
+  text-align: right;
+  font-family: Segoe UI;
+  color: #FFFFFF;
+  line-height: 16px;
+}
+/* 6 ci section(footer) qurtarir */
